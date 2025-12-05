@@ -9,6 +9,7 @@ if [ $# -ne 0 ]; then
 fi
 
 #Algoritmo
+#El comando tr traduce/reemplaza caracteres. tr -d elimina caracteres. tr -s reduce repeticiones
 for archivo in *; do
  if [ -f "$archivo" ]; then
   nuevo_nombre=$(echo "$archivo"|tr 'a-zA-Z' 'A-Za-z'|tr -d 'aA')
