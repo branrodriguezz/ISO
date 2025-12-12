@@ -15,7 +15,7 @@ multiplicacion=$((num1 * num2))
 
 if [ $num1 -gt $num2 ]; then
  mayor=$num1
-elif [ $num1 -lt $num2 ]; then
+elif [ $num1 -lt $num2 ]; then #innecesario
  mayor=$num2
 else
  mayor="Son iguales"
