@@ -6,7 +6,7 @@
 pila=()
 
 #Funciones
-
+#verificar que recibi un parametro
 #push: Recibe un parametro y lo agrega a la pila
 push(){
  pila+=("$1")
