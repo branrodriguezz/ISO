@@ -19,6 +19,7 @@ pop(){
  else
   last_index=$((${#pila[@]} - 1))
   unset "pila[$last_index]"
+  pila=(${pila[@]})
  fi
 }
 
