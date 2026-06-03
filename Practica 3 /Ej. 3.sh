@@ -21,6 +21,7 @@ ejecutarlo
     cd ~
     mkdir practica-shell-script
     cd practica-shell-script
+    touch mostrar.sh
     nano mostrar.sh
     chmod 755 mostrar.sh
     
